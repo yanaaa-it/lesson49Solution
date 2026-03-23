@@ -17,6 +17,8 @@ void selection_sort(int arr[], int n)
 
 }
 
+// 1 3 5 3 7 3 8
+
 // O(N)
 string find_double_value(int arr[], int n) {
 	string same = "";

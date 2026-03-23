@@ -1,5 +1,5 @@
 #include"util.h"
-
+//
 int main() {
 	srand(time(NULL));
 	int array[DEFAULT_SIZE];

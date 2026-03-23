@@ -2,6 +2,7 @@
 void print(string s) {
 	cout << s;
 }
+//
 
 void init_rnd(int array[], int length, int a, int b) {
 	if (a > b) {
