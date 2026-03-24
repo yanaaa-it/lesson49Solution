@@ -22,12 +22,12 @@ void selection_sort(int arr[], int n)
 // O(N)
 string find_double_value(int arr[], int n) {
 	string same = "";
-
+    int t = 0;
 	for (int i = 0; i < n; i++)
 	{
-		if (arr[i] == arr[i+1]) {
+		if (arr[i] == arr[i+1] && array[i] != t) {
 			same += to_string(arr[i]) + " ";
-	
+	        t = array[i];
 		}
 	}
 	return same;
